@@ -8,8 +8,8 @@ app = Flask(_name_)
 CORS(app)  # Enable CORS for all domains on all routes
 
 # Set environment variables
-os.environ['OPENAI_API_KEY'] = 'sk-proj-aUqK9ndHY2uRtmibY3HHT3BlbkFJNpEOu1WY50Bz8PuXlWE6'
-os.environ['PINECONE_API_KEY'] = 'f5fa0fda-521f-4e2b-959f-0ba03ea28de3'
+os.environ['OPENAI_API_KEY'] = ''
+os.environ['PINECONE_API_KEY'] = ''
 
 # Initialize OpenAI LLM
 llm = OpenAI(openai_api_key=os.environ['OPENAI_API_KEY'])
